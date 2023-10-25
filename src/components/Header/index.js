@@ -75,7 +75,7 @@ const toggle = () =>{
             <Link href="/about" className="mx-2">About</Link>
             <Link href="/contact" className="mx-2">Contact</Link>
             <Link href="https://portfolio3-d-tailwindcss-vso1.vercel.app/" className="mx-2">Portfolio</Link>
-            <Link href="https://stripe-payment-psi.vercel.app/" className="mx-2">Donate</Link>
+            <Link href="https://stripe-payment-xei5.vercel.app/" className="mx-2">Donate</Link>
             <button onClick={() => setMode(mode === "light" ? "dark" : "light")  }
             className={cx("w-6 h-6 ease ml-2 flex items-center justify-center rounded-full p-1", mode === "light" ? "bg-dark text-light" :
             "bg-light text-dark" )}
